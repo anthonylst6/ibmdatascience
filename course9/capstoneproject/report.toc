@@ -1,26 +1,13 @@
-\contentsline {section}{\numberline {1}Introduction}{2}{section.1}%
-\contentsline {section}{\numberline {2}Philosophy}{2}{section.2}%
-\contentsline {subsection}{\numberline {2.1}The forgotten component of teaching}{2}{subsection.2.1}%
-\contentsline {subsection}{\numberline {2.2}Teachers as leaders}{3}{subsection.2.2}%
-\contentsline {subsection}{\numberline {2.3}Dictatorship in teaching}{3}{subsection.2.3}%
-\contentsline {subsection}{\numberline {2.4}Slack: $n^2$ times as guilty}{4}{subsection.2.4}%
-\contentsline {section}{\numberline {3}The student psyche}{4}{section.3}%
-\contentsline {section}{\numberline {4}Starting easy}{4}{section.4}%
-\contentsline {section}{\numberline {5}Targeting lower-ability students}{4}{section.5}%
-\contentsline {section}{\numberline {6}Lecture Model}{4}{section.6}%
-\contentsline {subsection}{\numberline {6.1}More on active vs passive lecturing}{4}{subsection.6.1}%
-\contentsline {subsection}{\numberline {6.2}"Are they a spectator?" test}{4}{subsection.6.2}%
-\contentsline {subsection}{\numberline {6.3}Lecture notes $\neq $ Textbook notes}{4}{subsection.6.3}%
-\contentsline {subsection}{\numberline {6.4}The law of three}{5}{subsection.6.4}%
-\contentsline {subsection}{\numberline {6.5}Techniques to employ in lecture notes}{5}{subsection.6.5}%
-\contentsline {section}{\numberline {7}Tutorial Model}{5}{section.7}%
-\contentsline {subsection}{\numberline {7.1}The law of three again}{5}{subsection.7.1}%
-\contentsline {subsection}{\numberline {7.2}Techniques to employ in tutorial questions}{5}{subsection.7.2}%
-\contentsline {section}{\numberline {8}Assessment Model}{6}{section.8}%
-\contentsline {section}{\numberline {9}Assignment Model}{6}{section.9}%
-\contentsline {section}{\numberline {10}One percenters}{6}{section.10}%
-\contentsline {section}{\numberline {11}Online teaching}{6}{section.11}%
-\contentsline {section}{\numberline {12}Sample Lecture Notes}{6}{section.12}%
-\contentsline {section}{\numberline {13}Sample Tutorial}{6}{section.13}%
-\contentsline {section}{\numberline {14}Sample Assignment}{6}{section.14}%
-\contentsline {section}{\numberline {15}Things to add}{6}{section.15}%
+\contentsline {section}{\numberline {1}Introduction}{1}{section.1}%
+\contentsline {section}{\numberline {2}Data}{2}{section.2}%
+\contentsline {section}{\numberline {3}Methodology}{2}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Data wrangling}{2}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Exploratory data analysis}{4}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Preprocessing: train-test split and principal components analysis}{4}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Model building and selection}{6}{subsection.3.4}%
+\contentsline {section}{\numberline {4}Results}{6}{section.4}%
+\contentsline {section}{\numberline {5}Discussion}{7}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Interpretation of analysis}{7}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Implications of results}{8}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Recommendations}{8}{subsection.5.3}%
+\contentsline {section}{\numberline {6}Conclusion}{8}{section.6}%

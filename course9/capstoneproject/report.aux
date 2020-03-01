@@ -26,14 +26,41 @@
 \citation{ceg}
 \citation{pvdata}
 \citation{abspv}
+\@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{1}{section.1}\protected@file@percent }
 \citation{abs}
-\bibcite{ipcc}{1}
-\@writefile{toc}{\contentsline {section}{\numberline {1}Introduction / Business Problem}{1}{section.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {2}Data}{1}{section.2}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces A preview of the socio-economic indicators dataset on the ABS website, prior to exporting as a CSV file and performing data wrangling}}{2}{figure.1}\protected@file@percent }
+\citation{tidy}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces A preview of the socio-economic indicators dataset on the ABS website, prior to exporting as a CSV file and performing data wrangling.}}{2}{figure.1}\protected@file@percent }
 \newlabel{fig:fig1}{{1}{2}{A preview of the socio-economic indicators dataset on the ABS website, prior to exporting as a CSV file and performing data wrangling}{figure.1}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces A preview of the education and employment dataset on the ABS website, prior to exporting as a CSV file and performing data wrangling}}{2}{figure.2}\protected@file@percent }
-\newlabel{fig:fig2}{{2}{2}{A preview of the education and employment dataset on the ABS website, prior to exporting as a CSV file and performing data wrangling}{figure.2}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {2}Data}{2}{section.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {3}Methodology}{2}{section.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Data wrangling}{2}{subsection.3.1}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces A preview of the education and employment dataset on the ABS website, prior to exporting as a CSV file and performing data wrangling.}}{3}{figure.2}\protected@file@percent }
+\newlabel{fig:fig2}{{2}{3}{A preview of the education and employment dataset on the ABS website, prior to exporting as a CSV file and performing data wrangling}{figure.2}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Solar installation data by the APVI in its raw form upon being loaded.}}{3}{figure.3}\protected@file@percent }
+\newlabel{fig:fig3}{{3}{3}{Solar installation data by the APVI in its raw form upon being loaded}{figure.3}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Solar installation data by the APVI after cleaning. Only the LGA and Density (percentage of dwellings with installed solar) variables were retained.}}{3}{figure.4}\protected@file@percent }
+\newlabel{fig:fig4}{{4}{3}{Solar installation data by the APVI after cleaning. Only the LGA and Density (percentage of dwellings with installed solar) variables were retained}{figure.4}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces The educational demographic data from the ABS in its raw form.}}{3}{figure.5}\protected@file@percent }
+\newlabel{fig:fig5}{{5}{3}{The educational demographic data from the ABS in its raw form}{figure.5}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces The education and employment demographic data from the ABS after transformation. There are 87 columns in total, corresponding to 86 predictors (LGA is not used as a predictor). Similar transformations are performed on the other demographic datasets from the ABS.}}{4}{figure.6}\protected@file@percent }
+\newlabel{fig:fig6}{{6}{4}{The education and employment demographic data from the ABS after transformation. There are 87 columns in total, corresponding to 86 predictors (LGA is not used as a predictor). Similar transformations are performed on the other demographic datasets from the ABS}{figure.6}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Exploratory data analysis}{4}{subsection.3.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}Preprocessing: train-test split and principal components analysis}{4}{subsection.3.3}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces The combined dataframe containing Density, the response we are trying to predict in this analysis, in the first column, and demographic predictors in the remaining columns.}}{5}{figure.7}\protected@file@percent }
+\newlabel{fig:fig7}{{7}{5}{The combined dataframe containing Density, the response we are trying to predict in this analysis, in the first column, and demographic predictors in the remaining columns}{figure.7}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces Summary statistics of the combined dataframe (prior to imputing and removing missing values).}}{5}{figure.8}\protected@file@percent }
+\newlabel{fig:fig8}{{8}{5}{Summary statistics of the combined dataframe (prior to imputing and removing missing values)}{figure.8}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {9}{\ignorespaces Correlation matrix for predictors in training set. Notice that there are many predictors with high correlation.}}{6}{figure.9}\protected@file@percent }
+\newlabel{fig:fig9}{{9}{6}{Correlation matrix for predictors in training set. Notice that there are many predictors with high correlation}{figure.9}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.4}Model building and selection}{6}{subsection.3.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {4}Results}{6}{section.4}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {10}{\ignorespaces A comparison of the performance of each machine learning model on the training and test sets using the R squared metric.}}{7}{figure.10}\protected@file@percent }
+\newlabel{fig:fig10}{{10}{7}{A comparison of the performance of each machine learning model on the training and test sets using the R squared metric}{figure.10}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {11}{\ignorespaces A regression plot comparing the predicted density of solar installation on the x-axis to the actual values on the y-axis.}}{7}{figure.11}\protected@file@percent }
+\newlabel{fig:fig11}{{11}{7}{A regression plot comparing the predicted density of solar installation on the x-axis to the actual values on the y-axis}{figure.11}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5}Discussion}{7}{section.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1}Interpretation of analysis}{7}{subsection.5.1}\protected@file@percent }
+\bibcite{ipcc}{1}
 \bibcite{pew}{2}
 \bibcite{seia}{3}
 \bibcite{geogov}{4}
@@ -42,3 +69,7 @@
 \bibcite{ceg}{7}
 \bibcite{abspv}{8}
 \bibcite{abs}{9}
+\bibcite{tidy}{10}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2}Implications of results}{8}{subsection.5.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.3}Recommendations}{8}{subsection.5.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {6}Conclusion}{8}{section.6}\protected@file@percent }
